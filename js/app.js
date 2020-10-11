@@ -64,7 +64,7 @@ const increaseCounter = () => {
     console.log(+currentVal);
     console.log(+totalVal);
 
-    if (parseInt(currentVal) < 200) {
+    if (parseInt(currentVal) < 1000000) {
         totalPrize.textContent = parseInt(totalVal) + parseInt(currentVal);
         currentRoundPrize.textContent = parseInt(currentVal) * 2;
     } else {
